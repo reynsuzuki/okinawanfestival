@@ -1,0 +1,41 @@
+/* #COMPONENTS  */
+/* #BUTTONS */
+button {
+  font-size: inherit;
+}
+
+button, a.button {
+  display: inline-block; 
+  background-color: none;
+  border-bottom: 2px solid $link-color;
+  padding: .35em 0em; 
+  //-webkit-border-radius: .6em;
+  //-moz-border-radius: .6em;
+  //border-radius: .6em;
+  margin-top: 0em;
+  margin-bottom: .5em;
+  cursor: pointer;
+  line-height: 1em;
+  transition: all .3s ease;
+  color: $link-color;
+
+  
+}
+
+button.alt, a.button.alt {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid $link-color; 
+  color: $link-color;
+  transition: all .3s ease;
+}
+
+button:hover, a.button:hover {
+  background-color: $button-hover-color;
+  border-bottom: solid 2px #333; 
+  text-decoration: none;
+  transition: all .5s ease;
+  color: #333;
+}
+
+
+

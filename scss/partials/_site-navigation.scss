@@ -1,0 +1,138 @@
+/* #SITE NAVIGATION  */
+/* Default Site-Navigation Menu (both header & footer) */
+.site-navigation  {
+    font-family: $navigation-font-family;
+    //background: url('/img/white-wall.png');
+    background-repeat: repeat;
+    //background-size: contain; 
+    background-position: top;
+    background-size: auto;
+    //background-color: #4F4B54;
+    //background-color: #4e4755;
+    //background-color: #5d5c5c;
+    font-size: .7em;
+    display: block;
+    width: 100%;
+    padding: 2.5em 0em 1.75em 0em;
+  
+
+
+
+ 
+    
+    @media (max-width: $breakpoint-small - 1)  {
+    
+    background-color: #5b5b4d;
+        
+    }
+    
+  
+
+    
+    
+    .menu-button {
+        display: none;
+    }
+
+    ul {
+        //border-top: $border-width solid $border-color;
+        //margin: 1em 0 -.5em 0;
+        padding: 0;
+        text-align: center;
+        li {
+            margin: 0;
+            padding: 0 2em;
+            display: inline-block;
+            display: inline-flex; //for nest nav items
+
+            a {
+                display: block;
+                padding: .5em .75em .4em .75em;
+                color: #5b5b4d;
+                letter-spacing: 1px;
+               
+            }
+
+            a:hover {
+                color: $accent-color;
+                text-decoration: underline;
+                //background: #fcfcfc;
+                
+            }
+            
+            ul {
+                border-top: none;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    
+
+    @media (min-width: $breakpoint-small)  {
+        ul {
+            border-top: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                
+
+                a {
+                    margin: 0 .5em;
+                    padding: 0em .5em .75em .5em;
+                }
+            
+                /* DROP DOWN MENU */
+                /* stack nested lists */
+                li { 
+                    display: block;
+                }
+                /* hide nested lists by default */
+                ul {
+                    text-align: left;
+                    position: absolute;
+                    z-index: 100;
+                    left: -9000px;
+                    background: $background-color-header;
+                    margin-left: .5em;
+                }
+
+                /* show nested lists on hover */
+                &:hover ul {
+                    left: auto;
+                }
+            
+                /* SELECTED STATE */
+                &.selected,
+                &.current-menu-item {
+                    a {
+                        font-weight: 400;
+                        color: $accent-color;
+                    }
+                    li a {
+                        font-weight: normal;
+                        
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+/* Default Site-Navigation (header only) */
+.site-header .site-navigation {
+    @media (min-width: $breakpoint-small)  {
+        float: right;
+    }
+}
+
+/* Default Site-Navigation (footer only) */
+.site-footer .site-navigation {
+    ul {
+        border-top: none;
+        margin: 0;
+    }
+}
