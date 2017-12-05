@@ -492,7 +492,7 @@ body {
 /* Main Site Section (Main Content Area) */
 .site-main {
   padding-top: 150px;
-  background: url("/img/white-wall.png");
+  background: url("../img/white-wall.png");
   background-repeat: repeat;
   background-size: auto;
   background-position: top; }
@@ -879,10 +879,10 @@ video {
   overflow: hidden; }
 
 .hero-about {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.65)), to(rgba(35, 34, 32, 0.65))), url("/img/DSC_9577100904.jpg");
-  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("/img/DSC_9577100904.jpg");
-  background: -o-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("/img/DSC_9577100904.jpg");
-  background: linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("/img/DSC_9577100904.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.65)), to(rgba(35, 34, 32, 0.65))), url("../img/DSC_9577100904.jpg");
+  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("../img/DSC_9577100904.jpg");
+  background: -o-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("../img/DSC_9577100904.jpg");
+  background: linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("../img/DSC_9577100904.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -929,10 +929,10 @@ div.aboutus {
       display: none; } }
 
 .hero-schedule {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.7)), to(rgba(35, 34, 32, 0.7))), url("/img/DSF2089.jpg");
-  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("/img/DSF2089.jpg");
-  background: -o-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("/img/DSF2089.jpg");
-  background: linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("/img/DSF2089.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.7)), to(rgba(35, 34, 32, 0.7))), url("../img/DSF2089.jpg");
+  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("../img/DSF2089.jpg");
+  background: -o-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("../img/DSF2089.jpg");
+  background: linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("../img/DSF2089.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -972,10 +972,10 @@ div.schedule:last-child {
   margin-bottom: 5em; }
 
 .hero-booths {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.65)), to(rgba(35, 34, 32, 0.65))), url("/img/chips.jpg");
-  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("/img/chips.jpg");
-  background: -o-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("/img/chips.jpg");
-  background: linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("/img/chips.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.65)), to(rgba(35, 34, 32, 0.65))), url("../img/chips.jpg");
+  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("../img/chips.jpg");
+  background: -o-linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("../img/chips.jpg");
+  background: linear-gradient(rgba(35, 34, 32, 0.65), rgba(35, 34, 32, 0.65)), url("../img/chips.jpg");
   backgrosnd-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1135,10 +1135,10 @@ div.tab button.active {
 
 /*LOCATION*/
 .hero-location {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.7)), to(rgba(35, 34, 32, 0.7))), url("/img/_DSF1479.jpg");
-  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("/img/_DSF1479.jpg");
-  background: -o-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("/img/_DSF1479.jpg");
-  background: linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("/img/_DSF1479.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 34, 32, 0.7)), to(rgba(35, 34, 32, 0.7))), url("../img/_DSF1479.jpg");
+  background: -webkit-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("../img/_DSF1479.jpg");
+  background: -o-linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("../img/_DSF1479.jpg");
+  background: linear-gradient(rgba(35, 34, 32, 0.7), rgba(35, 34, 32, 0.7)), url("../img/_DSF1479.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
