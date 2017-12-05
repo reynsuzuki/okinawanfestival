@@ -899,6 +899,9 @@ div.aboutus {
   margin: 0 auto;
   width: 50%;
   padding: 1em 0; }
+  div.aboutus h2 {
+    padding-top: 5px;
+    padding-bottom: 3px; }
   div.aboutus p {
     margin-bottom: 15px; }
   div.aboutus p:last-child {
@@ -909,14 +912,14 @@ div.aboutus {
     background-color: #cbc0ae;
     display: block;
     float: left;
-    margin: 1.9em 1em 7em 0em; }
+    margin: 1.3em 1em 8em 0em; }
   div.aboutus #rectangle {
     height: 3px;
     width: 40px;
     background-color: #cbc0ae;
     display: block;
     float: left;
-    margin: 1.9em 1em 25em 0em; }
+    margin: 1.3em 1em 25em 0em; }
 
 @media (max-width: 767px) {
   div.aboutus {

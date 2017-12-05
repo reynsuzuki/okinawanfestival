@@ -981,7 +981,10 @@ div.aboutus {
     width: 50%;
     padding: 1em 0; 
     
-   
+    h2 {
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
      
     p {
         margin-bottom: 15px;
@@ -998,7 +1001,7 @@ div.aboutus {
     background-color: #cbc0ae;
     display: block;
     float: left; 
-    margin: 1.9em 1em 7em 0em;
+    margin: 1.3em 1em 8em 0em;
          
     }
     
@@ -1008,7 +1011,7 @@ div.aboutus {
     background-color: #cbc0ae;
     display: block;
     float: left; 
-    margin: 1.9em 1em 25em 0em;
+    margin: 1.3em 1em 25em 0em;
          
     }
 }
